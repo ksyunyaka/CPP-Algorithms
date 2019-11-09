@@ -6,6 +6,6 @@ int main(int argc, char* argv[]) {
   std::cout << "Give a real number" << "\n";
   std::cin >> a;
   double r = sin(a);
-  std::cout << "Hello World!" << " sin(" << a
+  std::cout << "Hello World!" << " sin(" << a << ")=" << r << "\n";
   return 0;
 }
